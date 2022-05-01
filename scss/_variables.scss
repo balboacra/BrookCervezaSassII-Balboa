@@ -1,0 +1,24 @@
+// Estos son los colores que utilizamos en las etiquetas.
+
+$color1: #ffffff;
+$color2: #000000;
+$color3: #721414;
+$color4: #C15901;
+$color5: #F2A01E;
+$color6: #E5DC85;
+$color7: #7C4411;
+$color8: #968463;
+
+
+// Paleta de colores map
+
+$colors: (
+    blanco: $color1,
+    negro: $color2,
+    scottish: $color3,
+    ipa: $color4,
+    cream: $color5,
+    belgian: $color6,
+    honey: $color7,
+    weisse: $color8,
+);
