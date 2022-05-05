@@ -3,7 +3,12 @@
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, button {
+h1,
+h2,
+h3,
+h4,
+h5,
+button {
   font-family: "Bitter", serif;
 }
 
@@ -48,21 +53,18 @@ h1, h2, h3, h4, h5, button {
 }
 
 .imgquienes {
-  height: 25rem;
-  width: 35rem;
+  width: 600px;
   padding: 2rem 4rem;
-  margin: 1rem;
   border: 1px;
   border-style: groove ridge;
 }
 
 .contenido1 {
+  width: 600px;
   line-height: 2rem;
   padding: 2rem 4rem;
   margin: 1rem;
   text-align: justify;
-  height: 25rem;
-  width: 35rem;
   border: 1px;
   border-style: groove ridge;
 }
@@ -185,6 +187,7 @@ h1, h2, h3, h4, h5, button {
 .media {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   justify-items: center;
@@ -192,11 +195,33 @@ h1, h2, h3, h4, h5, button {
   text-align: center;
 }
 
-.color {
-  background-color: rgb(90, 89, 89);
+.media1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.media1 .flex-item {
+  width: 600px;
+  border: 1px;
+  padding: 1.5rem;
+  margin: 50px;
+  border-style: groove ridge;
+}
+.media1 .parrafo {
+  line-height: 2rem;
+  text-align: justify;
+  border: 0;
+  border-style: none;
 }
 
-@media only screen and (max-width: 600px) {
+.color {
+  background-color: rgb(90, 89, 89);
+  border-radius: 20%;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 576px) {
   .tam-img {
     width: 300px;
   }
@@ -209,6 +234,14 @@ h1, h2, h3, h4, h5, button {
 
   .alinear-texto {
     text-align: center;
+  }
+
+  .media1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .media1 .flex-item {
+    width: 450px;
   }
 }
 
