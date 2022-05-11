@@ -153,6 +153,7 @@ button {
 .media1 {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     justify-content: center;
 
@@ -178,9 +179,9 @@ button {
     padding: 1rem;
 }
 
-@media only screen and (max-width:576px) {
+@media screen and (max-width: 576px) {
     .tam-img {
-        width: 300px;
+        width: 450px;
     }
 
     .media {
@@ -195,9 +196,10 @@ button {
 
     .media1 {
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
         .flex-item {
-            width: 450px;
+            width: 280px;
+            justify-content: center;
         }
     }
 }
