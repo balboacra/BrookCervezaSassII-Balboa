@@ -33,22 +33,6 @@ button {
     transform: scale(1.05);
 }
 
-// Ribbon
-
-#ribbon {
-    background-color: $color1;
-
-    #separador {
-        position: relative;
-        margin-top: -20px;
-        z-index: 10;
-
-        img {
-            position: relative;
-            margin-top: -30px;
-        }
-    }
-}
 
 // Index/Presentaciones
 
@@ -139,6 +123,12 @@ button {
     background: linear-gradient(0deg, $color8 0%, $color1 57%);
 }
 
+.premuim {
+    background: linear-gradient(0deg, $color2 0%, $color1 57%);
+}
+
+// Nosotros media
+
 .media {
     display: flex;
     flex-direction: row;
@@ -174,9 +164,9 @@ button {
 }
 
 .color {
-    background-color: rgb(90, 89, 89);
+    background-color: rgb(163, 158, 142);
     border-radius: 20%;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 @media screen and (max-width: 576px) {

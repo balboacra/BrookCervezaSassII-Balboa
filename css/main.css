@@ -23,19 +23,6 @@ button {
   transform: scale(1.05);
 }
 
-#ribbon {
-  background-color: #ffffff;
-}
-#ribbon #separador {
-  position: relative;
-  margin-top: -20px;
-  z-index: 10;
-}
-#ribbon #separador img {
-  position: relative;
-  margin-top: -30px;
-}
-
 #presentaciones {
   background: #ffffff;
   background: linear-gradient(0deg, #7C4411 0%, #F2A01E 57%);
@@ -112,6 +99,10 @@ button {
   background: linear-gradient(0deg, #968463 0%, #ffffff 57%);
 }
 
+.premuim {
+  background: linear-gradient(0deg, #000000 0%, #ffffff 57%);
+}
+
 .media {
   display: flex;
   flex-direction: row;
@@ -145,9 +136,9 @@ button {
 }
 
 .color {
-  background-color: rgb(90, 89, 89);
+  background-color: rgb(163, 158, 142);
   border-radius: 20%;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 @media screen and (max-width: 576px) {
